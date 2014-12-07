@@ -33,6 +33,8 @@ end
 ## Use unicorn as the app server
 #gem 'unicorn'
 
+# Heroku Deployment
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
