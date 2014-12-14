@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root: 'basics/splash'
+  root 'basics#splash'
 
-  get: :about, to: 'basics/about'
+  get :about, to: 'basics#about'
 end

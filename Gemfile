@@ -4,6 +4,15 @@ ruby '2.1.3'
 
 # Customizations
 
+## Authorization
+gem 'pundit'
+
+## Authentication
+gem 'devise'
+
+## Secrets
+gem 'figaro'
+
 ## Twitter Bootstrap with SASS Support
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
@@ -22,11 +31,16 @@ end
 
 ## Testing
 
+gem 'faker'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
-  gem 'capybara'
   gem 'sqlite3'
+end
+
+group :test do
+  gem 'capybara'
 end
 
 
