@@ -15,7 +15,7 @@ This is a simple Rails App that can be found deployed on Heroku.
 Xikipedia Satisfies the following User Stories
 
 1. As a user, I want to sign up for a free account by providing a user name, password and email.
-2. As a user, I want to be able to sign in and out of Bloccipedia.
+2. As a user, I want to be able to sign in and out of Xikipedia.
 3. As a user with a standard (free) account, I want create, read, update, and delete public wikis which anyone can view.
 4. User accounts should have one of three roles: admin, standard (free), or premium.
 5. As a developer, I want the development database to be automatically seeded with users and wikis.

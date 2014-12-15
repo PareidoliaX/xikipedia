@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, :type => :model do
+
   describe "validations" do
     it "has a valid factory" do
       user = build :user
@@ -50,15 +51,18 @@ RSpec.describe User, :type => :model do
       expect(user).to be_invalid
     end
   end
+
   describe "class methods" do
     it "responds to the `roles` method with an Array" do
       expect(User.roles).to be_instance_of Array
     end
   end
+
   describe "instance methods" do
     it "returns a full name" do
       user = build :user, first_name: 'Ford', last_name: 'Prefect'
       expect(user.full_name).to eq("Ford Prefect")
     end
   end
+  
 end
