@@ -15,7 +15,7 @@ end
 
 # Create Admin User
 admin = User.new(
-  name_first:   'Admin',
+  first_name:   'Admin',
   last_name:    "User",
   email:        'admin@example.com',
   password:     'helloworld',
@@ -26,7 +26,7 @@ admin.save!
 
 # Create Diagnostic User
 diagnostic = User.new(
-  name_first:   'Diagnostic',
+  first_name:   'Diagnostic',
   last_name:    "User",
   email:        'diagnostic@example.com',
   password:     'helloworld',
@@ -37,7 +37,7 @@ diagnostic.save!
 
 # Create Premium User
 premium = User.new(
-  name_first:   'Premium',
+  first_name:   'Premium',
   last_name:    "User",
   email:        'premium@example.com',
   password:     'helloworld',
@@ -48,7 +48,7 @@ premium.save!
 
 # Create Free User
 basic = User.new(
-  name_first:   'Basic',
+  first_name:   'Basic',
   last_name:    "User",
   email:        'basic@example.com',
   password:     'helloworld',
