@@ -46,7 +46,7 @@ premium = User.new(
 premium.skip_confirmation!
 premium.save!
 
-# Create Free User
+# Create Basic User
 basic = User.new(
   first_name:   'Basic',
   last_name:    "User",
