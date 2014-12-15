@@ -34,12 +34,12 @@ end
 gem 'faker'
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
   gem 'sqlite3'
 end
 
 group :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'capybara'
   #Code Climate Test Coverage
   gem "codeclimate-test-reporter", require: nil

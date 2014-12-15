@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+  - "2.1.3"
+
+# uncomment this line if your project needs to run something other than `rake`:
+script: CODECLIMATE_REPO_TOKEN=4ec18138c5e0ba21fe793a5301dd8208828f6f07a871c6d9179349f35dd58826 bundle exec rspec
