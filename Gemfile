@@ -41,6 +41,8 @@ end
 
 group :test do
   gem 'capybara'
+  #Code Climate Test Coverage
+  gem "codeclimate-test-reporter", require: nil
 end
 
 
