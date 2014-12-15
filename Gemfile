@@ -11,7 +11,7 @@ gem 'pundit'
 gem 'devise'
 
 ## Secrets
-gem 'figaro'
+gem 'figaro' 
 
 ## Twitter Bootstrap with SASS Support
 gem 'bootstrap-sass', '~> 3.2.0'
