@@ -7,9 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
   <body>
-    <div class='background-image'></div>
+    <div class='background'>
+    <%= render 'layouts/navbar' %>
       <div class='container'>
-        <%= render 'layouts/navbar' %>
         <%= render 'layouts/flash' %>
         <%= yield %>
       </div>
